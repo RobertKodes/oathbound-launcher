@@ -2,7 +2,18 @@
   "version": "0.1.0",
   "realm": {
     "name": "Oathbound Realms",
-    "host": "127.0.0.1"
+    "host": "127.0.0.1",
+    "relays": [
+      {
+        "localPort": 3724,
+        "remote": "bore.pub:33724"
+      },
+      {
+        "localPort": 8085,
+        "remote": "bore.pub:38085"
+      }
+    ],
+    "portalUrl": "http://bore.pub:38787"
   },
   "client": {
     "url": "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part00",
