@@ -5,10 +5,20 @@
     "host": "127.0.0.1"
   },
   "client": {
-    "url": "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.zip",
-    "parts": [],
+    "url": "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part00",
+    "parts": [
+      "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part00",
+      "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part01",
+      "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part02",
+      "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part03",
+      "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part04",
+      "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part05",
+      "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part06",
+      "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part07",
+      "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part08"
+    ],
     "version": "3.3.5a",
-    "note": "Single zip under 2GB: upload oathbound-client.zip to the v0.1.0 GitHub release (url above). Over 2GB: use scripts/publish-client.ps1 to split + upload + fill 'parts' with the chunk URLs (the launcher concatenates + extracts them)."
+    "note": "Auto-installed by the launcher: 9 parts are concatenated into one zip and extracted."
   },
   "news": [
     {
