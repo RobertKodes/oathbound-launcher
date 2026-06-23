@@ -29,7 +29,830 @@
       "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/oathbound-client.part08"
     ],
     "version": "3.3.5a",
-    "note": "Auto-installed by the launcher: 9 parts are concatenated into one zip and extracted."
+    "note": "Auto-installed by the launcher: 9 parts are concatenated into one zip and extracted.",
+    "files": [
+      {
+        "p": "Data/common-2.MPQ",
+        "s": 1814307386
+      },
+      {
+        "p": "Data/common.MPQ",
+        "s": 2884765579
+      },
+      {
+        "p": "Data/enUS/AccountBilling.url",
+        "s": 144
+      },
+      {
+        "p": "Data/enUS/backup-enUS.MPQ",
+        "s": 166001097
+      },
+      {
+        "p": "Data/enUS/base-enUS.MPQ",
+        "s": 29225789
+      },
+      {
+        "p": "Data/enUS/connection-help.html",
+        "s": 8885
+      },
+      {
+        "p": "Data/enUS/Credits.html",
+        "s": 29440
+      },
+      {
+        "p": "Data/enUS/Credits_BC.html",
+        "s": 32400
+      },
+      {
+        "p": "Data/enUS/Credits_LK.html",
+        "s": 74382
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/bg-botleft.jpg",
+        "s": 1864
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/bg-botright.jpg",
+        "s": 1691
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/bg-bottom.jpg",
+        "s": 2939
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/bg-left.jpg",
+        "s": 2478
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/bg-merge.jpg",
+        "s": 375
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/bg-mergebot.jpg",
+        "s": 592
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/bg-middle.jpg",
+        "s": 1235
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/bg-right.jpg",
+        "s": 2262
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/bg-top.jpg",
+        "s": 7773
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/Blizz.jpg",
+        "s": 25635
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/BLWidget.jpg",
+        "s": 9497
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/BRWidget.jpg",
+        "s": 9454
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/contactinfo-over.gif",
+        "s": 2877
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/contactinfo.gif",
+        "s": 2453
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/mac-over.jpg",
+        "s": 1971
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/mac.jpg",
+        "s": 1893
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/pc-over.jpg",
+        "s": 1901
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/pc.jpg",
+        "s": 1809
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/readme-over.gif",
+        "s": 2522
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/readme.gif",
+        "s": 2232
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/readme.jpg",
+        "s": 3341
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/troubleshooting-over.gif",
+        "s": 3190
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/troubleshooting.gif",
+        "s": 3150
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/troubleshooting.jpg",
+        "s": 4363
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/website-over.gif",
+        "s": 2239
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/buttons/website.gif",
+        "s": 2103
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/BWidget.jpg",
+        "s": 10358
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/CRepeat.jpg",
+        "s": 18653
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/dragon-left.jpg",
+        "s": 2718
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/dragon-right.jpg",
+        "s": 2037
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/gryphon-right.jpg",
+        "s": 930
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/help-request.gif",
+        "s": 543
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/ItemMarker.jpg",
+        "s": 19551
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/logo-blizzard.gif",
+        "s": 10253
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/logo-bnet.gif",
+        "s": 10357
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/logo-wow.gif",
+        "s": 22940
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/LRepeat.jpg",
+        "s": 13245
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/MacLogo.jpg",
+        "s": 15588
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/PCLogo.jpg",
+        "s": 1385
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/pixel.gif",
+        "s": 43
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/RRepeat.jpg",
+        "s": 13460
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/splash.jpg",
+        "s": 53481
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/title-troubleshooting.jpg",
+        "s": 10788
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/titles/contactinfo-mac.jpg",
+        "s": 12230
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/titles/contactinfo-pc.jpg",
+        "s": 12258
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/titles/readme-mac.jpg",
+        "s": 10263
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/titles/readme-pc.jpg",
+        "s": 10300
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/titles/troubleshooting-mac.jpg",
+        "s": 12193
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/titles/troubleshooting-pc.jpg",
+        "s": 12231
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/TLWidget.jpg",
+        "s": 9481
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/TRWidget.jpg",
+        "s": 9440
+      },
+      {
+        "p": "Data/enUS/Documentation/Images/TWidget.jpg",
+        "s": 10340
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/BSpacer.html",
+        "s": 733
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/CSpacer.html",
+        "s": 306
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/Detector.js",
+        "s": 377
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/Greeting.html",
+        "s": 1318
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/Index.html",
+        "s": 1638
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/LBorder.html",
+        "s": 335
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/Nav.html",
+        "s": 1944
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/RBorder.html",
+        "s": 346
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/Requirements.html",
+        "s": 1379
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/Splash.html",
+        "s": 772
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/Styles.css",
+        "s": 5953
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/StylesLeft.css",
+        "s": 5694
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/TBorder.html",
+        "s": 2713
+      },
+      {
+        "p": "Data/enUS/Documentation/Layout/TheScript.js",
+        "s": 7461
+      },
+      {
+        "p": "Data/enUS/Documentation/Manual.pdf",
+        "s": 2581831
+      },
+      {
+        "p": "Data/enUS/Documentation/Manual_TBC.pdf",
+        "s": 1281553
+      },
+      {
+        "p": "Data/enUS/Documentation/Manual_WLK.pdf",
+        "s": 1298657
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(Mac)Foreword.html",
+        "s": 1300
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(Mac)Installation.html",
+        "s": 1386
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(Mac)Patching.html",
+        "s": 1242
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(Mac)ReadMeMenu.html",
+        "s": 2155
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(Mac)SystemRequirements.html",
+        "s": 2145
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(Mac)Uninstall.html",
+        "s": 1700
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(PC)Foreword.html",
+        "s": 1300
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(PC)Installation.html",
+        "s": 1783
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(PC)Patching.html",
+        "s": 1240
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(PC)ReadMeMenu.html",
+        "s": 2155
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(PC)SystemRequirements.html",
+        "s": 2444
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/(PC)Uninstall.html",
+        "s": 2078
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/BasicCommands.html",
+        "s": 15683
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/CharacterNaming.html",
+        "s": 1694
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/EULA.html",
+        "s": 25730
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/GettingStarted.html",
+        "s": 3859
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/ManualErrata.html",
+        "s": 1143
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe/RealmSelection.html",
+        "s": 2892
+      },
+      {
+        "p": "Data/enUS/Documentation/ReadMe.html",
+        "s": 1657
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/(Mac)SupportMenu.html",
+        "s": 3704
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/(Mac)TechnicalSupport.html",
+        "s": 3041
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/(PC)SupportMenu.html",
+        "s": 3707
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/(PC)TechnicalSupport.html",
+        "s": 5391
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/AccountAdministration.html",
+        "s": 4501
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/BlizzardInsider.html",
+        "s": 3478
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/Employment.html",
+        "s": 3424
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/GameSuggestions.html",
+        "s": 1201
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/GameSupport.html",
+        "s": 3495
+      },
+      {
+        "p": "Data/enUS/Documentation/Support/Password.html",
+        "s": 2909
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(Mac)AudioProblems.html",
+        "s": 1509
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(Mac)BlizzardDownloaderProblems.html",
+        "s": 3026
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(Mac)ConnectionLoginProblems.html",
+        "s": 6489
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(Mac)GameplayProblems.html",
+        "s": 2459
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(Mac)Install.html",
+        "s": 1000
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(Mac)PreventiveMaintenance.html",
+        "s": 4667
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(Mac)StartupProblems.html",
+        "s": 5218
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(Mac)TroubleshootingMenu.html",
+        "s": 2122
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(Mac)VideoProblems.html",
+        "s": 7205
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(PC)AudioProblems.html",
+        "s": 4591
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(PC)BlizzardDownloaderProblems.html",
+        "s": 4261
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(PC)ConnectionLoginProblems.html",
+        "s": 6143
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(PC)GameplayProblems.html",
+        "s": 2458
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(PC)Install.html",
+        "s": 2277
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(PC)PreventiveMaintenance.html",
+        "s": 7808
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(PC)StartupProblems.html",
+        "s": 5282
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(PC)TroubleshootingMenu.html",
+        "s": 2099
+      },
+      {
+        "p": "Data/enUS/Documentation/Troubleshooting/(PC)VideoProblems.html",
+        "s": 8431
+      },
+      {
+        "p": "Data/enUS/eula.html",
+        "s": 25730
+      },
+      {
+        "p": "Data/enUS/expansion-locale-enUS.MPQ",
+        "s": 17421123
+      },
+      {
+        "p": "Data/enUS/expansion-speech-enUS.MPQ",
+        "s": 241298910
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/Logo_1024.avi",
+        "s": 6506496
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/Logo_800.avi",
+        "s": 4589568
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_FotLK_1024.avi",
+        "s": 66007136
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_FotLK_800.avi",
+        "s": 57244820
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_Intro_1024.avi",
+        "s": 47632384
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_Intro_800.avi",
+        "s": 41175040
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_Intro_BC_1024.avi",
+        "s": 47577088
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_Intro_BC_800.avi",
+        "s": 41263104
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_Intro_LK_1024.avi",
+        "s": 56177056
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_Intro_LK_800.avi",
+        "s": 48820376
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_Wrathgate_1024.avi",
+        "s": 75685834
+      },
+      {
+        "p": "Data/enUS/Interface/Cinematics/WOW_Wrathgate_800.avi",
+        "s": 65683896
+      },
+      {
+        "p": "Data/enUS/lichking-locale-enUS.MPQ",
+        "s": 12642308
+      },
+      {
+        "p": "Data/enUS/lichking-speech-enUS.MPQ",
+        "s": 354400446
+      },
+      {
+        "p": "Data/enUS/locale-enUS.MPQ",
+        "s": 204725970
+      },
+      {
+        "p": "Data/enUS/patch-enUS-2.MPQ",
+        "s": 225570191
+      },
+      {
+        "p": "Data/enUS/patch-enUS-3.MPQ",
+        "s": 100373935
+      },
+      {
+        "p": "Data/enUS/patch-enUS.MPQ",
+        "s": 296615999
+      },
+      {
+        "p": "Data/enUS/realmlist.wtf",
+        "s": 25
+      },
+      {
+        "p": "Data/enUS/speech-enUS.MPQ",
+        "s": 438856302
+      },
+      {
+        "p": "Data/enUS/TechSupport.url",
+        "s": 154
+      },
+      {
+        "p": "Data/enUS/tos.html",
+        "s": 32793
+      },
+      {
+        "p": "Data/expansion.MPQ",
+        "s": 1923425302
+      },
+      {
+        "p": "Data/lichking.MPQ",
+        "s": 2581185615
+      },
+      {
+        "p": "Data/Optional/WotLK 3.3.5a Texture HD/Readme.txt",
+        "s": 706
+      },
+      {
+        "p": "Data/patch-2.MPQ",
+        "s": 1403129115
+      },
+      {
+        "p": "Data/patch-3.MPQ",
+        "s": 605089137
+      },
+      {
+        "p": "Data/patch.MPQ",
+        "s": 4005207470
+      },
+      {
+        "p": "Data/Readme-ES.txt",
+        "s": 772
+      },
+      {
+        "p": "Data/Readme-US.txt",
+        "s": 687
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/AIO.lua",
+        "s": 50524
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/AIO_Client.toc",
+        "s": 448
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/Dep_LibWindow-1.1/Changelog-LibWindow-1.1-r12.txt",
+        "s": 485
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/Dep_LibWindow-1.1/LibStub.lua",
+        "s": 2247
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/Dep_LibWindow-1.1/LibWindow-1.1/LibWindow-1.1.lua",
+        "s": 8642
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/Dep_LibWindow-1.1/LibWindow-1.1.toc",
+        "s": 474
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/Dep_Smallfolk/LICENSE.md",
+        "s": 1078
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/Dep_Smallfolk/README.md",
+        "s": 2911
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/Dep_Smallfolk/smallfolk.lua",
+        "s": 5588
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/lualzw-zeros/.gitignore",
+        "s": 365
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/lualzw-zeros/LICENSE",
+        "s": 1078
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/lualzw-zeros/lualzw.lua",
+        "s": 4679
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/lualzw-zeros/README.md",
+        "s": 2946
+      },
+      {
+        "p": "Interface/AddOns/AIO_Client/queue.lua",
+        "s": 1666
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_AchievementUI/Blizzard_AchievementUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_AuctionUI/Blizzard_AuctionUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarbershopUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_BattlefieldMinimap/Blizzard_BattlefieldMinimap.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_Calendar/Blizzard_Calendar.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_CombatLog/Blizzard_CombatLog.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_CombatText/Blizzard_CombatText.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_GlyphUI/Blizzard_GlyphUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_GMSurveyUI/Blizzard_GMSurveyUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_TalentUI/Blizzard_TalentUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_TimeManager/Blizzard_TimeManager.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_TradeSkillUI/Blizzard_TradeSkillUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.pub",
+        "s": 257
+      },
+      {
+        "p": "Wow.exe",
+        "s": 7704216
+      },
+      {
+        "p": "WowError.exe",
+        "s": 350360
+      },
+      {
+        "p": "Battle.net.dll",
+        "s": 15588224
+      },
+      {
+        "p": "DivxDecoder.dll",
+        "s": 413696
+      },
+      {
+        "p": "Scan.dll",
+        "s": 42244
+      },
+      {
+        "p": "dbghelp.dll",
+        "s": 1039728
+      },
+      {
+        "p": "ijl15.dll",
+        "s": 372736
+      },
+      {
+        "p": "msvcr80.dll",
+        "s": 632656
+      },
+      {
+        "p": "unicows.dll",
+        "s": 245408
+      },
+      {
+        "p": "Microsoft.VC80.CRT.manifest",
+        "s": 1870
+      }
+    ],
+    "totalBytes": 17895076167
   },
   "news": [
     {
