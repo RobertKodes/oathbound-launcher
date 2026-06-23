@@ -1,0 +1,38 @@
+{
+  "version": "0.1.0",
+  "realm": {
+    "name": "Oathbound Realms",
+    "host": "127.0.0.1"
+  },
+  "client": {
+    "url": "https://github.com/EmbrOS-Experimental/oathbound-realms/releases/download/v0.1.0/oathbound-client.zip",
+    "parts": [],
+    "version": "3.3.5a",
+    "note": "Single zip under 2GB: upload oathbound-client.zip to the v0.1.0 GitHub release (url above). Over 2GB: use scripts/publish-client.ps1 to split + upload + fill 'parts' with the chunk URLs (the launcher concatenates + extracts them)."
+  },
+  "news": [
+    {
+      "date": "2026-06-23",
+      "title": "Welcome to Oathbound Realms",
+      "body": "Create your account in the launcher, set a PIN, and press Play. The whole game lives in one in-game dashboard (the coin button or /oath)."
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-23",
+      "title": "Arena is live",
+      "body": "Queue 1v1–4v4 best-of-5 matches — free or wager SOL. Climb the leaderboard and become a Class King."
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.0",
+      "notes": [
+        "Custom launcher with in-launcher account creation + PIN.",
+        "Economy simplified to gold + SOL; free supply battle pass.",
+        "PvP arena, wagering, PvP levels, Class Kings, PvE Trial, Guild War + treasury."
+      ]
+    }
+  ],
+  "files": []
+}

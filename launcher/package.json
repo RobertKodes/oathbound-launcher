@@ -1,0 +1,45 @@
+{
+  "name": "oathbound-launcher",
+  "version": "0.1.0",
+  "description": "Oathbound Realms — custom game launcher (login, update, download, play)",
+  "main": "main.js",
+  "author": "Oathbound Realms",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis",
+    "pack": "electron-builder --dir"
+  },
+  "devDependencies": {
+    "electron": "^31.7.6",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.oathboundrealms.launcher",
+    "productName": "Oathbound Realms",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "config.json",
+      "renderer/**/*"
+    ],
+    "win": {
+      "target": ["nsis"],
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Oathbound Realms",
+      "uninstallDisplayName": "Oathbound Realms Launcher"
+    }
+  }
+}

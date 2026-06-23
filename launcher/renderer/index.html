@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline';" />
+  <title>Oathbound Realms</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- cinematic background stack -->
+  <canvas id="fx"></canvas>
+  <div class="bg"></div>
+  <div class="aurora"></div>
+  <div class="vignette"></div>
+
+  <!-- ===================== LOGIN / CREATE ===================== -->
+  <section id="loginView" class="view">
+    <div class="hero-logo">
+      <img class="logo" src="assets/oathbound-logo.png" alt="Oathbound Realms"
+           onerror="this.style.display='none';document.getElementById('logoFallback').style.display='block'" />
+      <h1 id="logoFallback" class="logo-fallback" style="display:none">OATHBOUND<span>REALMS</span></h1>
+    </div>
+
+    <div class="login-card glass">
+      <div class="tabs">
+        <button class="tab active" data-mode="login">Log In</button>
+        <button class="tab" data-mode="create">Create Account</button>
+      </div>
+
+      <form id="authForm" autocomplete="off">
+        <div class="field"><span class="ico">&#9670;</span><input id="f_user" type="text" placeholder="Account name" maxlength="17" /></div>
+        <div class="field"><span class="ico">&#128274;</span><input id="f_pass" type="password" placeholder="Password" maxlength="16" /></div>
+        <div class="field" id="pass2Field" style="display:none"><span class="ico">&#128274;</span><input id="f_pass2" type="password" placeholder="Confirm password" maxlength="16" /></div>
+        <div class="field"><span class="ico">&#9913;</span><input id="f_pin" type="password" placeholder="PIN (4–6 digits)" maxlength="6" inputmode="numeric" /></div>
+        <button id="submitBtn" type="submit" class="primary"><span>Log In</span></button>
+      </form>
+
+      <div id="authStatus" class="status"></div>
+
+      <details class="settings">
+        <summary>Realm &amp; client settings</summary>
+        <label>Realm address<input id="cfg_realm" type="text" placeholder="127.0.0.1" /></label>
+        <label>Game folder
+          <div class="row"><input id="cfg_wow" type="text" placeholder="Not set" readonly /><button id="browseWow" type="button">Browse…</button></div>
+        </label>
+      </details>
+    </div>
+
+    <div class="realm-pill"><span class="dot"></span> Oathbound Realms · Devnet</div>
+  </section>
+
+  <!-- ===================== MAIN (after login) ===================== -->
+  <section id="mainView" class="view" style="display:none">
+    <header class="topbar glass">
+      <img class="logo-sm" src="assets/oathbound-logo.png" alt="" onerror="this.style.display='none'" />
+      <div class="spacer"></div>
+      <span id="whoami" class="whoami"></span>
+      <button id="logoutBtn" class="ghost">Log out</button>
+    </header>
+
+    <main class="stage">
+      <section class="hero glass">
+        <img class="hero-logo-img" src="assets/oathbound-logo.png" alt="" onerror="this.style.display='none'" />
+        <div class="hero-text">
+          <div class="kicker">LATEST</div>
+          <h2 id="heroTitle">Welcome to Oathbound Realms</h2>
+          <p id="heroBody">Create your account, set a PIN, and press Play.</p>
+        </div>
+      </section>
+
+      <section class="panel glass">
+        <nav class="feedtabs">
+          <button class="ftab active" data-feed="news">News</button>
+          <button class="ftab" data-feed="events">Events</button>
+          <button class="ftab" data-feed="changelog">Update Log</button>
+        </nav>
+        <div id="feed" class="feed"></div>
+      </section>
+    </main>
+
+    <footer class="actionbar glass">
+      <div class="status-left">
+        <span id="verLabel" class="ver">v0.0.0</span>
+        <span id="updateLabel" class="upd"></span>
+      </div>
+      <div class="actions">
+        <button id="installBtn" class="ghost">Install Game</button>
+        <button id="updateBtn" class="ghost">Check for Updates</button>
+        <button id="downloadBtn" class="ghost" style="display:none">Download</button>
+        <button id="playBtn" class="play"><span>PLAY</span></button>
+      </div>
+      <div id="progress" class="progress" style="display:none"><div id="progressBar"></div><span id="progressText"></span></div>
+    </footer>
+  </section>
+
+  <script src="fx.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
