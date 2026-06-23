@@ -1,6 +1,6 @@
 {
   "backendUrl": "http://81.196.40.217:8787",
-  "manifestUrl": "https://raw.githubusercontent.com/EmbrOS-Experimental/oathbound-realms/main/launcher-manifest.json",
+  "manifestUrl": "https://raw.githubusercontent.com/RobertKodes/oathbound-launcher/main/launcher-manifest.json",
   "realmHost": "81.196.40.217",
   "wowPath": "",
   "version": "0.1.0"
