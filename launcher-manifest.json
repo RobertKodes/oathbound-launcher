@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "realm": {
     "name": "Oathbound Realms",
     "host": "127.0.0.1",
@@ -870,6 +870,15 @@
   ],
   "changelog": [
     {
+      "version": "0.1.1",
+      "notes": [
+        "Custom Oathbound login screen (beta).",
+        "In-game login fixed.",
+        "5x XP, instant-80, hub arrival, farm pays gold.",
+        "Balances shown as Oath Tokens."
+      ]
+    },
+    {
       "version": "0.1.0",
       "notes": [
         "Custom launcher with in-launcher account creation + PIN.",
@@ -878,5 +887,10 @@
       ]
     }
   ],
-  "files": []
+  "files": [
+    {
+      "url": "https://github.com/RobertKodes/oathbound-launcher/releases/download/v0.1.0/patch-Z.MPQ",
+      "path": "Data/patch-Z.MPQ"
+    }
+  ]
 }
